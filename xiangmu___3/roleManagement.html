@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>账号管理_系统账号_角色管理</title>
+		<link rel="stylesheet" type="text/css" href="lib/assets/css/pagination.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/userList.css" />
+		<link rel="stylesheet" type="text/css" href="css/roleManagement.css"/>
+	</head>
+
+	<body>
+		<div class="container pad20">
+			<!--
+            	作者：tanxiang6690@163.com
+            	时间：2017-07-31
+            	描述：此处为面包屑导航部分
+            -->
+			<ul class="menu clearfix">
+				<li class="float-l transition3s">首页</li>
+				<li class="float-l transition3s">/</li>
+				<li class="float-l transition3s">项目</li>
+				<li class="float-l transition3s">/</li>
+				<li class="float-l transition3s">账号管理_系统账号_角色管理</li>
+			</ul>
+			<!--
+            	作者：tanxiang6690@163.com
+            	时间：2017-07-31
+            	描述：搜索条件部分
+            -->
+			<div class="form pad20">
+				<form action="#" method="post" class="clearfix">
+					<div class="search-list float-l">
+						<p class="float-l">角色名称</p>
+						<input type="text" class="float-l" placeholder="输入角色名称" />
+					</div>
+					<button class="my_btn float-l search">搜索</button>
+					<div class="search-list float-r">
+						<button class="my_btn float-r"><a href="roleAdd.html" target="base">新增</a></button>
+					</div>
+				</form>
+			</div>
+			<!--
+            	作者：tanxiang6690@163.com
+            	时间：2017-07-31
+            	描述：t
+            -->
+			<div class="table">
+				<table border="0" cellspacing="0" cellpadding="0" class="border-l border-r border-t border-b">
+					<tr>
+						<th class="border-b border-r"><input type="checkbox" /></th>
+						<th class="border-b border-r">角色名称</th>
+						<th class="border-b border-r">角色描述</th>
+						<th class="border-b border-r">创建时间</th>
+						<th class="border-b">操作</th>
+					</tr>
+					<tr>
+						<td class="border-b border-r"><input type="checkbox" /></td>
+						<td class="border-b border-r">张三</td>
+						<td class="border-b border-r">小丑</td>
+						<td class="border-b border-r">2017.5.6 14:19</td>
+						<td class="border-b">
+							<a href="roleModify.html" target="base"><button class="my_btn_1 transition3s">编辑</button></a>
+							<button class="my_btn_2 transition3s">删除</button>
+						</td>
+					</tr>
+					<tr>
+						<td class="border-b border-r"><input type="checkbox" /></td>
+						<td class="border-b border-r">张三</td>
+						<td class="border-b border-r">小丑</td>
+						<td class="border-b border-r">2017.5.6 14:19</td>
+						<td class="border-b">
+							<button class="my_btn_1 transition3s">编辑</button>
+							<button class="my_btn_2 transition3s">删除</button>
+						</td>
+					</tr>
+					<tr>
+						<td class="border-b border-r"><input type="checkbox" /></td>
+						<td class="border-b border-r">张三</td>
+						<td class="border-b border-r">小丑</td>
+						<td class="border-b border-r">2017.5.6 14:19</td>
+						<td class="border-b">
+							<button class="my_btn_1 transition3s">编辑</button>
+							<button class="my_btn_2 transition3s">删除</button>
+						</td>
+					</tr><tr>
+						<td class="border-b border-r"><input type="checkbox" /></td>
+						<td class="border-b border-r">张三</td>
+						<td class="border-b border-r">小丑</td>
+						<td class="border-b border-r">2017.5.6 14:19</td>
+						<td class="border-b">
+							<button class="my_btn_1 transition3s">编辑</button>
+							<button class="my_btn_2 transition3s">删除</button>
+						</td>
+					</tr><tr>
+						<td class="border-b border-r"><input type="checkbox" /></td>
+						<td class="border-b border-r">张三</td>
+						<td class="border-b border-r">小丑</td>
+						<td class="border-b border-r">2017.5.6 14:19</td>
+						<td class="border-b">
+							<button class="my_btn_1 transition3s">编辑</button>
+							<button class="my_btn_2 transition3s">删除</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!--
+            	作者：tanxiang6690@163.com
+            	时间：2017-07-31
+            	描述：分页器
+            -->
+			<div class="M-box2"></div>
+		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/assets/js/jquery.pagination.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/userList.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

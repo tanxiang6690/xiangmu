@@ -1,0 +1,104 @@
+/* container-right页面右边搜索部分 */
+
+.container .form {
+	width: 100%;
+	height: 84px;
+	background-color: #f2f2f2;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.container .form .search-list {
+	width: 21%;
+	height: 84px;
+	line-height: 36px;
+	padding: 24px 0;
+	box-sizing: border-box;
+}
+
+.container .form .search-list p {
+	width: 25%;
+	text-align: right;
+}
+
+.container .form .search-list input,
+.container .form .search-list select {
+	height: 36px;
+	width: 70%;
+	text-align: left;
+}
+
+.container .form .search-list:nth-of-type(3){
+	width: 16%;
+}
+.container .form .search-list:nth-of-type(3) select{
+	width: 40%;
+	margin-left: 5px;
+}
+.container .form .search-list:last-child {
+	padding: 0;
+	width: 25%;
+}
+
+.container .form button {
+	margin-top: 26px;
+	margin-left: 5%;
+}
+
+.container .form button a{
+	color: #fff;
+}
+
+.container .form .search{
+	position: absolute;
+	left: 51%;
+}
+
+.container.taocan .form .search{
+	/* 具有套餐这个类时搜索按钮的位置 */
+	position: absolute;
+	left: 38%;
+}
+/* 右边的table部分 */
+
+.container .table,
+.container .table table {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.container .table table tr{
+	height: 40px;
+	transition: all .6s ease;
+}
+
+.container .table table tr th{
+	background-color: #eef1f6;
+	text-align: center;
+}
+
+.container .table table tr input{
+	float: none;
+}
+.container .table table tr th:first-child{
+	width: 50px;
+}
+.container .table table tr th:last-child{
+	/* 暂时预留 */
+	/*width: 150px;*/
+}
+.container .table table tr td{
+	text-align: center;
+}
+.container .table table tr td.bei-zhu{
+	line-height: 1.5;
+	padding: 10px 0;
+}
+
+.container .table table tr:last-child td{
+	border-bottom: none;
+}
+
+.container .table table tr:hover{
+	background-color: #eef1f6;	
+}

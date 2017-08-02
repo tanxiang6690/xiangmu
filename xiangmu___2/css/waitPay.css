@@ -1,0 +1,87 @@
+.container.orderManagement .form .search-list.status{
+	/*background: red;*/
+	width: 160px;
+	margin-left: 2.3%;
+}
+
+.container.orderManagement .form .search-list.status select{
+	width: 56%;
+}
+
+.container.orderManagement .form .search-list p {
+	width: 35%;
+}
+
+.container.orderManagement .form .search-list input {
+	width: 60%;
+}
+
+.container.orderManagement .form .search-list.time {
+	width: 30%;
+	padding: 24px 0;
+}
+
+.container.orderManagement .form .search-list.time p {
+	width: 20%;
+}
+
+.container.orderManagement .form .search-list.time input {
+	width: 32%;
+}
+
+.container.orderManagement .form .search-list.time span {
+	display: inline-block;
+}
+
+.container.orderManagement .form .search {
+	position: absolute;
+	left: 78%;
+}
+
+/*.container.orderManagement .table table tr th:first-child {
+	width: 24px;
+}*/
+
+.container.orderManagement .table table button {
+	margin: 2px 0;
+}
+
+.container.orderManagement .table table tr td a {
+	color: rgb(32, 160, 255);
+}
+.container.orderManagement .table table tr th.order-id{
+	width: 10%;
+}
+.container.orderManagement .table table tr th.order-timer{
+	width: 9%;
+}
+.container.orderManagement .table table tr th.wtdw {
+	width: 20%;
+}
+
+.container.orderManagement .table table tr th.money {
+	width: 12%;
+}
+
+.container.orderManagement .table table tr th.report {
+	width: 8%;
+}
+
+.container.orderManagement .table table tr th.is-urgent,
+.container.orderManagement .table table tr th.order-status,
+.container.orderManagement .table table tr th.check-type {
+	width: 6%;
+}
+
+.container.orderManagement .table table tr td.wtdw {
+	line-height: 2.5;
+}
+
+.container.orderManagement .table table tr td.is-urgent {
+	line-height: 1.5;
+}
+
+.container.orderManagement .table table tr td strong {
+	line-height: 3.5;
+	color: red;
+}

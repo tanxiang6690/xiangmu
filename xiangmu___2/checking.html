@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>订单管理_纺织服装管理_订单列表_检测中</title>
+		<link rel="stylesheet" type="text/css" href="lib/assets/css/pagination.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/userList.css" />
+		<link rel="stylesheet" type="text/css" href="css/waitPay.css"/>
+	</head>
+
+	<body>
+		<div class="container orderManagement pad20">
+			<!--
+            	作者：tanxiang6690@163.com
+            	时间：2017-07-31
+            	描述：此处为面包屑导航部分
+            -->
+			<ul class="menu clearfix">
+				<li class="float-l transition3s">首页</li>
+				<li class="float-l transition3s">/</li>
+				<li class="float-l transition3s">项目</li>
+				<li class="float-l transition3s">/</li>
+				<li class="float-l transition3s">订单管理_纺织服装管理_订单列表_检测中</li>
+			</ul>
+			<!--
+            	作者：tanxiang6690@163.com
+            	时间：2017-07-31
+            	描述：搜索条件部分
+            -->
+			<div class="form pad20">
+				<form action="#" method="post" class="clearfix">
+					<div class="search-list float-l">
+						<p class="float-l">订单编号</p>
+						<input type="text" class="float-l" placeholder="输入订单编号" />
+					</div>
+					<div class="search-list float-l">
+						<p class="float-l">委托单位</p>
+						<input type="text" class="float-l" placeholder="输入委托单位" />
+					</div>
+					<div class="search-list float-l status">
+						<p class="float-l">订单状态</p>
+						<select class="float-l">
+							<option value="">请选择</option>
+							<option value="">状态一</option>
+							<option value="">状态二</option>
+							<option value="">状态三</option>
+							<option value="">状态四</option>
+						</select>
+					</div>
+					<div class="search-list float-l time">
+						<p class="float-l">下单时间</p>
+						<input type="date" class="float-l"/>
+						<span class="float-l">--</span>
+						<input type="date" class="float-l"/>
+					</div>
+					<button class="my_btn search">搜索</button>
+				</form>
+			</div>
+			<!--
+            	作者：tanxiang6690@163.com
+            	时间：2017-07-31
+            	描述：t
+            -->
+			<div class="table">
+				<table border="0" cellspacing="0" cellpadding="0" class="border-l border-r border-t border-b">
+					<tr>
+						<th class="border-b border-r"><input type="checkbox" /></th>
+						<th class="border-b border-r order-id">订单编号</th>
+						<th class="border-b border-r order-timer">下单时间</th>
+						<th class="border-b border-r check-type">检测分类</th>
+						<th class="border-b border-r wtdw">委托单位</th>
+						<th class="border-b border-r report">纸质报告（份）</th>
+						<th class="border-b border-r is-urgent">是否加急</th>
+						<th class="border-b border-r money">金额（元）</th>
+						<th class="border-b border-r order-status">订单状态</th>
+						<th class="border-b border-r">委托单</th>
+						<th class="border-b">操作</th>
+					</tr>
+					<tr>
+						<td class="border-b border-r"><input type="checkbox" /></td>
+						<td class="border-b border-r">115555555555</td>
+						<td class="border-b border-r">2017.5.6 14:19</td>
+						<td class="border-b border-r">套餐</td>
+						<td class="border-b border-r wtdw pad10">苏州迈维朗网络科技有限公司杭州分公司苏州迈维朗网络科技有限公司杭州分公司</td>
+						<td class="border-b border-r">100</td>
+						<td class="border-b border-r">是</td>
+						<td class="border-b border-r is-urgent">套餐：￥55.555<br /><strong>合计：￥55.555</strong></td>
+						<td class="border-b border-r">检测中</td>
+						<td class="border-b border-r"><a href="">查看</a></td>
+						<td class="border-b">
+							<button class="my_btn_1 transition3s">已接收快递</button><br />
+							<button class="my_btn_1 transition3s">检测完成</button><br />
+							<button class="my_btn_1 transition3s">报到上传</button><br />
+							<button class="my_btn_1 transition3s">报告文档生成</button><br />
+							<button class="my_btn_1 transition3s">审核通过</button><br />
+							<button class="my_btn_1 transition3s">检测中</button>
+						</td>
+					</tr>
+					<tr>
+						<td class="border-b border-r"><input type="checkbox" /></td>
+						<td class="border-b border-r">11</td>
+						<td class="border-b border-r">2017.5.6 14:19</td>
+						<td class="border-b border-r">套餐</td>
+						<td class="border-b border-r wtdw pad10">苏州迈维朗网络科技有限公司杭州分公司</td>
+						<td class="border-b border-r">100</td>
+						<td class="border-b border-r">否</td>
+							<td class="border-b border-r is-urgent">加急：￥55.555<br />自定义：￥55.555 <br />套餐：￥55.555 <br />纸质报告x10：￥55.555 <br /><strong>合计：￥555.55</strong></td>
+						<td class="border-b border-r">检测中</td>
+						<td class="border-b border-r"><a href="">查看</a></td>
+						<td class="border-b">
+							<button class="my_btn_1 transition3s">已接收快递</button><br />
+							<button class="my_btn_1 transition3s">检测完成</button><br />
+							<button class="my_btn_1 transition3s">报到上传</button><br />
+							<button class="my_btn_1 transition3s">报告文档生成</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!--
+            	作者：tanxiang6690@163.com
+            	时间：2017-07-31
+            	描述：分页器
+            -->
+			<div class="M-box2"></div>
+		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/assets/js/jquery.pagination.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/userList.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

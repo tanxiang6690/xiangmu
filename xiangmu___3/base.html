@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>系统后台基本页面</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+	</head>
+
+	<body>
+		<div class="container clearfix">
+			<div class="logo pad20 clearfix">
+				<img src="img/logo.jpg" class="float-l" />
+				<ul class="float-r">
+					<li class="float-l">
+						<a href="pwdEdit.html" target="base">修改密码</a>
+					</li>
+					<li class="float-l">
+						<a href="javascript:;">退出</a>
+					</li>
+				</ul>
+			</div>
+			<div class="container-left float-l">
+				<ul class="pad20">
+					<li class="left-menu active">
+						<a href="javascript:;">账号管理</a>
+						<!--
+                        	作者：tanxiang6690@163.com
+                        	时间：2017-08-01
+                        	描述：二级菜单
+                        -->
+						<ul class="second-menu pad20">
+							<li>
+								<a href="javascript:;">系统账号</a>
+								<!--
+                                	作者：tanxiang6690@163.com
+                                	时间：2017-08-01
+                                	描述：三级菜单
+                                -->
+								<ul class="third-menu pad20">
+									<li>
+										<a href="userList.html" target="base">账号列表</a>
+									</li>
+									<li>
+										<a href="roleManagement.html" target="base">角色管理</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="companyList.html" target="base">生产企业账号</a>
+							</li>
+							<li>
+								<a href="materialSupply.html" target="base">原料供应商账号</a>
+							</li>
+							<li>
+								<a href="dealer.html" target="base">经销商账号</a>
+							</li>
+							<li>
+								<a href="independentShops.html" target="base">独立店铺</a>
+							</li>
+							<li>
+								<a href="independentBrand.html" target="base">自助品牌</a>
+							</li>
+							<li>
+								<a href="testCompany.html" target="base">检测单位</a>
+							</li>
+						</ul>
+					</li>
+					<li class="left-menu">
+						<a href="javascript:;">订单管理</a>
+						<!--
+                        	作者：tanxiang6690@163.com
+                        	时间：2017-08-01
+                        	描述：二级菜单
+                        -->
+						<ul class="second-menu pad20">
+							<li>
+								<a href="javascript:;">纺织服装管理</a>
+								<!--
+                                	作者：tanxiang6690@163.com
+                                	时间：2017-08-01
+                                	描述：三级菜单
+                                -->
+								<ul class="third-menu pad20">
+									<li>
+										<a href="javascript:;">订单列表</a>
+										<!--
+                                        	作者：tanxiang6690@163.com
+                                        	时间：2017-08-01
+                                        	描述：四级菜单
+                                        -->
+										<ul class="fourth-menu pad20">
+											<li>
+												<a href="waitPay.html" target="base">待支付</a>
+											</li>
+											<li>
+												<a href="waitCheck.html" target="base">待审核</a>
+											</li>
+											<li>
+												<a href="checkNoPass.html" target="base">审核未通过</a>
+											</li>
+											<li>
+												<a href="checkPass.html" target="base">审核已通过</a>
+											</li>
+											<li>
+												<a href="waitSend.html" target="base">样品待邮递</a>
+											</li>
+											<li>
+												<a href="waitReceive.html" target="base">样品待接收</a>
+											</li>
+											<li>
+												<a href="checking.html" target="base">检测中</a>
+											</li>
+											<li>
+												<a href="completed.html" target="base">已完成</a>
+											</li>
+											<li>
+												<a href="waitEvaluate.html" target="base">待评价</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:;">计价管理</a>
+										<!--
+                                        	作者：tanxiang6690@163.com
+                                        	时间：2017-08-01
+                                        	描述：四级菜单
+                                        -->
+										<ul class="fourth-menu pad20">
+											<li>
+												<a href="taoCan.html" target="base">套餐</a>
+											</li>
+											<li>
+												<a href="taoCanCheck.html" target="base">套餐可选</a>
+											</li>
+											<li>
+												<a href="userDefined.html" target="base">自定义</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="container-rigth float-r">
+				<iframe name="base" scrolling="yes" frameborder="no" width="100%" height="845"></iframe>
+			</div>
+			<!--
+            	作者：tanxiang6690@163.com
+            	时间：2017-08-01
+            	描述：src="waitPay.html"
+            -->
+		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			// 初始化container-left的高度
+			$('.container-left').height($(window).height() - 80);
+
+			// 屏幕大小改变时，container-left跟着改变
+			$(window).resize(function() {
+				$('.container-left').height($(window).height() - 80);
+			})
+
+			// 左边点击显示下拉菜单
+			$('.container-left .left-menu').on('click', function() {
+				var index = $(this).index();
+				// 初始化所有左边的二级菜单的样式
+				$('.container-left .left-menu .second-menu').stop().slideUp();
+				// 单击显示二级菜单
+				$('.container-left .left-menu .second-menu').eq(index).stop().slideDown();
+				// 给当前的li添加样式
+				$(this).addClass('active').siblings().removeClass('active');
+			})
+		</script>
+	</body>
+
+</html>

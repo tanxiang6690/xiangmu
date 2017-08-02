@@ -1,0 +1,16 @@
+.container .form .search{
+	position: absolute;
+	left: 17%;
+}
+
+.container .form .search-list p {
+	width: 29%;
+	text-align: right;
+}
+
+.container .form .search-list input,
+.container .form .search-list select {
+	height: 36px;
+	width: 66%;
+	text-align: left;
+}

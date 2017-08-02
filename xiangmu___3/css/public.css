@@ -1,0 +1,388 @@
+p,
+ul,
+ol,
+li,
+dd,
+dt,
+form,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+body,
+a,
+i,
+pre {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 14px;
+	font-family: Arial, Helvetica, STHeiti, "宋体";
+	color: #666;
+	font-style: normal;
+}
+
+ul>li>ul,
+ul>li>ol,
+ol>li>ol,
+ol>li>ul {
+	margin: 0;
+}
+
+a {
+	color: #666;
+	display: inline-block;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	font-size: 0;
+	border: none;
+}
+
+input,
+select,
+button,
+textarea {
+	outline: none;
+	border: none;
+	resize: none;
+}
+
+input,
+select,
+textarea {
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+	box-sizing: border-box;
+	/*text-align: left;*/
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	border: 1px solid #58b7ff;
+	transition: all .6s ease;
+	/* Firefox 4 */
+	-moz-transition: all .6s ease;
+	/* Safari and Chrome */
+	-webkit-transition: all .6s ease;
+	/* Opera */
+	-o-transition: all .6s ease;
+}
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #ccc;
+}
+
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #ccc;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #ccc;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #ccc;
+}
+
+
+/* 第一种按钮 */
+
+.my_btn {
+	color: #fff;
+	padding: 7px 20px;
+	color: #fff;
+	background-color: #58b7ff;
+	border-radius: 4px;
+	font-size: 14px;
+	transition: all .6s ease;
+	/* Firefox 4 */
+	-moz-transition: all .6s ease;
+	/* Safari and Chrome */
+	-webkit-transition: all .6s ease;
+	/* Opera */
+	-o-transition: all .6s ease;
+}
+
+
+/* 第二种按钮 */
+
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
+	-webkit-appearance: button;
+}
+
+.my_btn_1 {
+	/* 修改按钮  */
+	display: inline-block;
+	line-height: 1;
+	white-space: nowrap;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #bfcbd9;
+	color: #1f2d3d;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 15px;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+.my_btn_1:hover {
+	border: 1px solid rgb(32, 160, 255);
+	color: rgb(32, 160, 255);
+}
+
+.my_btn_2 {
+	/* 删除按钮  */
+	display: inline-block;
+	line-height: 1;
+	white-space: nowrap;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #ff4949;
+	color: #fff;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 15px;
+	font-size: 14px;
+	border-radius: 4px;
+	background-color: #ff4949;
+}
+
+.btn {
+	width: 100%;
+	float: left;
+}
+
+
+/*这个类用来让所有的内容左右缩进20px*/
+
+.pad20 {
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+
+/*这个类用来让所有的内容左右缩进10px*/
+
+.pad10 {
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+
+/*这个类用来让所有的内容左右缩进90px*/
+
+.pad90 {
+	padding: 0 90px;
+	box-sizing: border-box;
+}
+
+
+/*这个类用来让所有的内容左右缩进360px*/
+
+.pad360 {
+	padding: 0 360px;
+	box-sizing: border-box;
+}
+
+
+/*这个类用来撑开容器的高度*/
+
+.overfh {
+	overflow: hidden;
+}
+
+
+/*用来处理transition兼容过度的*/
+
+.transition3s {
+	transition: all .2s ease;
+	/* Firefox 4 */
+	-moz-transition: all .2s ease;
+	/* Safari and Chrome */
+	-webkit-transition: all .2s ease;
+	/* Opera */
+	-o-transition: all .2s ease;
+}
+
+
+/* 左浮动 */
+
+.float-l {
+	float: left;
+}
+
+
+/* 右浮动 */
+
+.float-r {
+	float: right;
+}
+
+
+/* 清除浮动的类 */
+
+.clearfix:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	/* 触发 hasLayout */
+	zoom: 1;
+}
+
+
+/* 页面顶部 */
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container .logo {
+	width: 100%;
+	height: 80px;
+	background-color: rgb(32, 160, 255);
+}
+
+.container .logo img {
+	display: inline-block;
+	width: 200px;
+	height: 80px;
+}
+
+.container .logo ul {
+	height: 80px;
+	margin-right: 100px;
+}
+
+
+/*.container .logo ul li*/
+
+.container .logo ul a {
+	line-height: 80px;
+	margin: 0 15px;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+/*.container .logo ul a:last-child{
+	margin-right:100px;
+}*/
+
+
+/* 页面左边 */
+
+.container .container-left {
+	width: 16.5%;
+	min-width: 160px;
+	background-color: #eef1f6;
+	box-sizing: border-box;
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+
+
+/* 页面右边 */
+
+.container .container-rigth {
+	/*margin-left: 300px;*/
+	width: 83.5%;
+	/*min-width: 780px;*/
+	/*height: 500px;*/
+	/*background: tan;*/
+}
+
+
+/* 面包屑导航  */
+
+.container .menu {
+	height: 60px;
+	width: 100%;
+	line-height: 60px;
+}
+
+.container .menu li {
+	font-size: 12px;
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+.container .menu li:hover {
+	color: rgb(32, 160, 255);
+}
+
+.container .menu li:last-child {
+	cursor: text;
+	color: #97a8be;
+}
+
+
+/*页面底部*/
+
+.container .footer {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-top: 1px solid #e6e6e6;
+}
+
+
+/* 关于边框线的设置 */
+
+.border-l {
+	border-left: 1px solid #e6e6e6;
+}
+
+.border-r {
+	border-right: 1px solid #e6e6e6;
+}
+
+.border-t {
+	border-top: 1px solid #e6e6e6;
+}
+
+.border-b {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+
+/* 定位到正中央 */
+
+.position-c {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}

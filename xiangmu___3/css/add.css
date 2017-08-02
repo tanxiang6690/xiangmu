@@ -1,0 +1,82 @@
+.container .list {
+	width: 100%;
+	padding: 20px;
+	/*background-color: #f2f2f2;*/
+}
+
+.container .list li {
+	line-height: 60px;
+	width: 100%;
+	/*background-color: #fff;*/
+}
+
+.container .list li p {
+	width: 15%;
+	height: 60px;
+	line-height: 60px;
+	text-align: right;
+}
+
+.container .list li .text {
+	width: 20%;
+}
+
+.container .list li .text input,
+.container .list li .text select,
+.container .list li .text textarea {
+	height: 30px;
+	width: 100%;
+	text-indent: 1em;
+}
+.container .list li .text textarea {
+	resize: both;
+}
+.container .list li .text textarea {
+	height: 90px;
+	line-height: 1.8;
+	margin-top: 15px;
+}
+
+.container .list li .text label {
+	padding-right: 20px;
+}
+
+.container .list li .text input[type=checkbox],
+.container .list li .text input[type=radio] {
+	width: 15px;
+	margin-top: 17px;
+}
+
+.container .list li .text.more {
+	width: 80%;
+	/*background: red;*/
+}
+
+.container .list li .text.more p {
+	text-align: left;
+	width: 22%;
+}
+
+.container .list li .text,
+.container .list li .error-tips {
+	min-height: 60px;
+	margin-left: 15px;
+}
+
+.container .list li .error-tips {
+	width: 20%;
+	color: red;
+	font-size: 12px;
+}
+
+.container .list li:last-child {
+	line-height: 150px;
+}
+
+.container .list li:last-child .text {
+	width: 100%;
+}
+
+.container .list li:last-child button {
+	margin-right: 20px;
+}

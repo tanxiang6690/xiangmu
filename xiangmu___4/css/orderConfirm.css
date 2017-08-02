@@ -1,0 +1,366 @@
+.container {
+	width: 100%;
+}
+
+.container .logo {
+	width: 1200px;
+	height: 108px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.container .logo img {
+	display: inline-block;
+	width: 200px;
+}
+
+.container .logo h1 {
+	position: absolute;
+	top: 52px;
+	left: 200px;
+	font-size: 30px;
+}
+
+.container .header {
+	width: 100%;
+	height: 40px;
+	background-color: #2e82ff;
+}
+
+.container .header .header-inner {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.container .header .header-inner .title {
+	line-height: 3;
+}
+
+.container .header .header-inner .title a {
+	font-weight: 100;
+	color: #36c;
+	font-size: 12px;
+}
+
+
+/**/
+
+.user_type li {
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid transparent;
+}
+
+.user_type li:hover {
+	background: #fff0e8;
+}
+
+.user_type li.active {
+	border: 1px solid #f40;
+	box-shadow: 5px 5px 0 #f3f3f3;
+	background-color: #fff0e8;
+}
+
+.user_type li .icon {
+	width: 75px;
+	height: 32px;
+	position: relative;
+}
+
+.user_type li .icon i {
+	font-size: 22px;
+	color: #f40;
+	display: none;
+}
+
+.user_type li .icon span {
+	display: inline-block;
+	line-height: 32px;
+	height: 32px;
+	font-weight: bold;
+	color: #f40;
+	position: absolute;
+	left: 22px;
+	top: 0;
+	display: none;
+}
+
+.user_type li .detail-address {
+	width: 1123px;
+	height: 32px;
+	padding-left: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.user_type li .detail-address input[type=radio] {
+	position: absolute;
+	left: 0;
+	top: 8px;
+}
+
+.user_type li .detail-address input[type=button] {
+	background: none;
+	border: none;
+	line-height: 32px;
+	display: none;
+	color: #36c;
+	font-size: 12px;
+}
+
+.user_type li.active .icon i,
+.user_type li.active .icon span,
+.user_type li.active .detail-address input[type=button] {
+	display: block;
+}
+
+.add {
+	float: none;
+	margin: 30px 0;
+}
+
+.add button {
+	width: 90px;
+	height: 25px;
+	background-position: -28px -70px;
+}
+
+
+/**/
+
+.container.order .sesstion-right {
+	border-right: none;
+}
+
+.container.order .search {
+	width: 100%;
+}
+
+.container.order .search .search-item {
+	width: 50%;
+	height: 50px;
+	float: left;
+	position: relative;
+}
+
+.container.order .search .search-item p {
+	width: 30%;
+	height: 100%;
+	float: left;
+	line-height: 50px;
+	text-align: right;
+}
+
+.container.order .search .search-item .search-text {
+	width: 70%;
+	height: 100%;
+	float: left;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+.container.order .search .search-item .search-text input,
+.container.order .search .search-item .search-text select {
+	height: 30px;
+	width: 100%;
+}
+
+.container.order .search .search-item button {
+	margin-left: 120px;
+}
+
+.container.order .order-list {
+	width: 100%;
+}
+
+.container.order .order-list .order-title {
+	margin: 30px 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f3f3f3;
+	border: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+
+/* wtdw：委托单位 */
+
+.container.order .order-list .order-title li {
+	float: left;
+	height: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/*.container.order .order-list .order-title .wtdw {
+	width: 399px;
+}*/
+
+.container.order .order-list .order-item {
+	width: 100%;
+}
+
+.container.order .order-list .order-item li {
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.container.order .order-list .order-item .order-item-title {
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+.container.order .order-list .order-item .order-item-title li {
+	float: left;
+	border: none;
+	width: 25%;
+	line-height: 40px;
+	background-color: #f3f3f3;
+	padding: 0 10px;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.container.order .order-list .order-item .order-item-list {
+	width: 100%;
+	font-size: 12px;
+	float: left;
+}
+
+.container.order .order-list .order-item .order-item-list div {
+	padding: 10px 15px;
+	float: left;
+	box-sizing: border-box;
+	line-height: 1.5;
+	/*border-right: 1px solid #F7F7F7;*/
+	text-align: center;
+}
+
+.container.order .order-list .order-item .order-item-list div a {
+	font-size: 12px;
+	color: #58b7ff;
+}
+
+.container.order .order-list .order-title .wtdw,
+.container.order .order-list .order-item .order-item-list .wtdw {
+	width: 399px;
+}
+
+.container.order .order-list .order-item .order-item-list .jiujiu,
+.container.order .order-list .order-title .jiujiu {
+	width: 99px;
+}
+.container.order .order-list .order-title .yijiujiu,
+.container.order .order-list .order-item .order-item-list .yijiujiu {
+	width: 199px;
+}
+
+.header-inner {
+	padding: 60px 0;
+}
+
+.address {
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.address h2 {
+	width: 100%;
+	line-height: 50px;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.address h2 span {
+	color: red;
+}
+
+.address h2 input {
+	display: inline-block;
+}
+
+.address h2 input[type=radio] {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.address h2 input[type=number] {
+	margin-top: 10px;
+	text-align: left;
+	width: 65px;
+	line-height: 20px;
+}
+
+.address h2 label {
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.sesstion-right {
+	width: 100%;
+}
+
+.sesstion .btn {
+	padding: 20px 0;
+}
+
+.sesstion .btn a {
+	/*margin: 0 20px;*/
+	cursor: pointer;
+}
+
+.sesstion .btn a:last-child {
+	margin-right: 20px;
+}
+
+.sesstion .btn a:hover {
+	color: #fff;
+}
+
+.container.order .order-list .order-item h1 {
+	background-color: #f2f7ff;
+	padding: 3px 10px 3px 0;
+	text-align: right;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-weight: 100;
+}
+
+.container.order .order-list .order-item .order-item-title ul {
+	background-color: #f3f3f3;
+}
+
+.container.order .order-list .order-item .order-item-title ul li {
+	padding-right: 100px;
+	width: auto;
+}
+
+.container.order .order-list .order-item h1 div:nth-of-type(1) {
+	line-height: 45px;
+}
+
+.container.order .order-list .order-item h1 div {
+	line-height: 1.6;
+}
+
+.container.order .order-list .order-item h1 span {
+	font-weight: bold;
+	color: red;
+}
+
+.container.order .order-list .order-item .order-item-list div:last-child {
+	border: none;
+}
+
+.container.order .order-list .order-item li {
+	margin: 0;
+	box-sizing: border-box;
+}
