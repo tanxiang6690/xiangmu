@@ -108,6 +108,11 @@
 	font-size: 12px;
 }
 
+.user_type li .detail-address label {
+	display: block;
+	height: 32px;
+}
+
 .user_type li.active .icon i,
 .user_type li.active .icon span,
 .user_type li.active .detail-address input[type=button] {
@@ -194,11 +199,6 @@
 	font-size: 12px;
 }
 
-
-/*.container.order .order-list .order-title .wtdw {
-	width: 399px;
-}*/
-
 .container.order .order-list .order-item {
 	width: 100%;
 }
@@ -238,7 +238,6 @@
 	float: left;
 	box-sizing: border-box;
 	line-height: 1.5;
-	/*border-right: 1px solid #F7F7F7;*/
 	text-align: center;
 }
 
@@ -256,6 +255,7 @@
 .container.order .order-list .order-title .jiujiu {
 	width: 99px;
 }
+
 .container.order .order-list .order-title .yijiujiu,
 .container.order .order-list .order-item .order-item-list .yijiujiu {
 	width: 199px;
