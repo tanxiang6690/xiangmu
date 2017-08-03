@@ -16,7 +16,8 @@ img,
 body,
 a,
 i,
-pre {
+pre,
+input {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -24,6 +25,7 @@ pre {
 	font-family: Arial, Helvetica, STHeiti, "宋体";
 	color: #666;
 	font-style: normal;
+	float: none;
 }
 
 ul>li>ul,
@@ -56,16 +58,10 @@ button,
 textarea {
 	outline: none;
 	border: none;
-	/*resize: none;*/
-}
-
-input,
-select,
-textarea {
+	resize: none;
 	border: 1px solid #e6e6e6;
 	border-radius: 2px;
 	box-sizing: border-box;
-	/*text-align: left;*/
 }
 
 input:focus,
@@ -79,41 +75,6 @@ textarea:focus {
 	-webkit-transition: all .6s ease;
 	/* Opera */
 	-o-transition: all .6s ease;
-}
-
-select {
-	color: #ccc;
-}
-
-select option {
-	color: #666;
-}
-
-::-webkit-input-placeholder {
-	/* WebKit browsers */
-	color: #ccc;
-}
-
-:-moz-placeholder {
-	/* Mozilla Firefox 4 to 18 */
-	color: #ccc;
-	opacity: 1;
-}
-
-::-moz-placeholder {
-	/* Mozilla Firefox 19+ */
-	color: #ccc;
-	opacity: 1;
-}
-
-:-ms-input-placeholder {
-	/* Internet Explorer 10+ */
-	color: #ccc;
-}
-
-input[type=checkbox],
-input[type=radio] {
-	width: 15px;
 }
 
 .my_btn {
@@ -132,8 +93,49 @@ input[type=radio] {
 	-o-transition: all .6s ease;
 }
 
-.bg{
-	background-image: url(../img/icon.png);
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
+	-webkit-appearance: button;
+}
+
+.my_btn_1 {
+	/* 修改按钮  */
+	display: inline-block;
+	line-height: 1;
+	white-space: nowrap;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #bfcbd9;
+	color: #1f2d3d;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 15px;
+	font-size: 14px;
+	border-radius: 2px;
+}
+
+.my_btn_1:hover {
+	border: 1px solid rgb(32, 160, 255);
+	color: rgb(32, 160, 255);
+}
+
+.my_btn_2 {
+	/* 删除按钮  */
+	display: inline-block;
+	line-height: 1;
+	white-space: nowrap;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #ff4949;
+	color: #fff;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 15px;
+	font-size: 14px;
+	border-radius: 4px;
+	background-color: #ff4949;
 }
 
 .btn {
@@ -331,39 +333,36 @@ input[type=radio] {
 /* 步骤提示 */
 
 .press-tips {
-	height: 50px;
-	width: 920px;
-	margin: 40px auto;
-	border-bottom: 3px solid #e6e6e6;
+	height: 34px;
+	width: 482px;
+	background: url(../img/mod_sub_nav.png) no-repeat;
+	/*margin: 30px 0 30px 70px;*/
+	margin: 30px auto;
 }
 
-.press-tips li{
-	width: 114px;
-	height: 50px;
-	margin: 0 17px;
+.press-tips li {
+	height: 100%;
+	width: 241px;
+	float: left;
+	line-height: 34px;
+	padding-left: 70px;
+	box-sizing: border-box;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 0 7px;
-	box-sizing: border-box;
 }
 
-.press-tips li span{
-	display: inline-block;
-	width: 26px;
-	height: 26px;
-	font-size: 16px;
-	line-height: 26px;
-	color: #fff;
-	text-align: center;
-	background-image: url(../img/biaoti.png);
-	margin-right: .5em;
+.press-tips .first.active {
+	background: url(../img/sub_nav_1.png) no-repeat;
+	color: #2e82ff;
 }
-.press-tips li.active {
-	border-bottom: 3px solid #2e82ff;
+
+.press-tips .second.active {
+	background: url(../img/sub_nav_3.png) no-repeat;
+	background-size: cover;
+	color: #2e82ff;
+	padding-left: 80px;
 }
-.press-tips li.active span{
-	background-position: -35px 0;
-}
+
 
 /* 定位到正中央 */
 

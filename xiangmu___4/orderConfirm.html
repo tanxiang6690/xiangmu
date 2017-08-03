@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="lib/font/iconfont.css" />
-		<title>送检_订单确认</title>
+		<title>订单确认</title>
 		<link rel="stylesheet" type="text/css" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/orderConfirm.css" />
 	</head>
@@ -17,6 +17,18 @@
 			</div>
 			<div class="header">
 				<div class="header-inner">
+					<ul class="press-tips pad90">
+						<!--
+	                    	作者：tanxiang6690@163.com
+	                    	时间：2017-07-21
+	                    	描述：此处样式，是通过给每个li添加一个active的类来控制
+                    	-->
+						<li class="float-l"><span>1</span>基本信息</li>
+						<li class="float-l"><span>2</span>选择方案</li>
+						<li class="float-l active"><span>3</span>订单确认</li>
+						<li class="float-l"><span>4</span>支付方式</li>
+						<li class="float-l"><span>5</span>支付成功</li>
+					</ul>
 					<div class="address">
 						<h2 class="clearfix">
 							<a href="javascript:;" class="float-l">选择纸质报告</a>
@@ -34,167 +46,170 @@
                     	时间：2017-08-02
                     	描述：编辑地址部分
                     -->
-					<h1 class="title border-b">确认收货地址<a href="editAdress.html" class="float-r">管理收货地址</a></h1>
-					<div class="user_type">
-						<ul>
-							<li class="clearfix active">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" checked="checked" name="dizhi" id="defult-dizhi" />
-									<label for="defult-dizhi">
+					<div class="tab">
+
+						<h1 class="title border-b">确认收货地址<a href="javascript:;" class="float-r">管理收货地址</a></h1>
+						<div class="user_type">
+							<ul>
+								<li class="clearfix active">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" checked="checked" name="dizhi" id="defult-dizhi" />
+										<label for="defult-dizhi">
+										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
+										<span>默认地址</span>
+										<input type="button" value="修改本地址" class="float-r alert-btn2">
+									</label>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" name="dizhi" id="dizhi-1" />
+										<label for="dizhi-1">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
 										<input type="button" value="修改本地址" class="float-r">
 									</label>
-								</div>
-							</li>
-							<li class="clearfix">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" name="dizhi" id="dizhi-1" />
-									<label for="dizhi-1">
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" name="dizhi" id="dizhi-2" />
+										<label for="dizhi-2">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
 										<input type="button" value="修改本地址" class="float-r">
 									</label>
-								</div>
-							</li>
-							<li class="clearfix">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" name="dizhi" id="dizhi-2" />
-									<label for="dizhi-2">
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" name="dizhi" id="dizhi-3" />
+										<label for="dizhi-3">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
 										<input type="button" value="修改本地址" class="float-r">
 									</label>
-								</div>
-							</li>
-							<li class="clearfix">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" name="dizhi" id="dizhi-3" />
-									<label for="dizhi-3">
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" name="dizhi" id="dizhi-4" />
+										<label for="dizhi-4">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
 										<input type="button" value="修改本地址" class="float-r">
 									</label>
-								</div>
-							</li>
-							<li class="clearfix">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" name="dizhi" id="dizhi-4" />
-									<label for="dizhi-4">
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" name="dizhi" id="dizhi-5" />
+										<label for="dizhi-5">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
 										<input type="button" value="修改本地址" class="float-r">
 									</label>
-								</div>
-							</li>
-							<li class="clearfix">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" name="dizhi" id="dizhi-5" />
-									<label for="dizhi-5">
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" name="dizhi" id="dizhi-6" />
+										<label for="dizhi-6">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
 										<input type="button" value="修改本地址" class="float-r">
 									</label>
-								</div>
-							</li>
-							<li class="clearfix">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" name="dizhi" id="dizhi-6" />
-									<label for="dizhi-6">
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" name="dizhi" id="dizhi-7" />
+										<label for="dizhi-7">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
 										<input type="button" value="修改本地址" class="float-r">
 									</label>
-								</div>
-							</li>
-							<li class="clearfix">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" name="dizhi" id="dizhi-7" />
-									<label for="dizhi-7">
-										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
-										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
-									</label>
-								</div>
-							</li>
-							<li class="clearfix">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" name="dizhi" id="dizhi-8" />
-									<label for="dizhi-8">
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" name="dizhi" id="dizhi-8" />
+										<label for="dizhi-8">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）19709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
 										<input type="button" value="修改本地址" class="float-r">
 									</label>
-								</div>
-							</li>
-							<li class="clearfix">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" name="dizhi" id="dizhi-9" />
-									<label for="dizhi-9">
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" name="dizhi" id="dizhi-9" />
+										<label for="dizhi-9">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）110709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
 										<input type="button" value="修改本地址" class="float-r">
 									</label>
-								</div>
-							</li>
-							<li class="clearfix">
-								<div class="icon float-l">
-									<i class="iconfont icon-ditudizhi"></i>
-									<span>送货至</span>
-								</div>
-								<div class="detail-address float-l">
-									<input type="radio" name="dizhi" id="dizhi-10" />
-									<label for="dizhi-10">
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="icon float-l">
+										<i class="iconfont icon-ditudizhi"></i>
+										<span>送货至</span>
+									</div>
+									<div class="detail-address float-l">
+										<input type="radio" name="dizhi" id="dizhi-10" />
+										<label for="dizhi-10">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
 										<input type="button" value="修改本地址" class="float-r">
 									</label>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="btn add pad90">
-						<button class="bg"></button>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="btn add pad90">
+							<button class="bg"></button>
+						</div>
 					</div>
 					<h1 class="title border-b">确认订单信息</h1>
 					<div class="sesstion clearfix">
