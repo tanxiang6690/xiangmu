@@ -1,0 +1,84 @@
+/* 右边的table部分 */
+
+.container .title {
+	font-size: 30px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.container .title a{
+	line-height: 50px;
+	font-weight: 100;
+	color: rgb(32, 160, 255);
+}
+.container .table {
+	margin-top: 30px;
+}
+
+.container .table,
+.container .table table {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.container .table table tr {
+	height: 40px;
+	transition: all .6s ease;
+}
+
+.container .table table tr th {
+	background-color: #eef1f6;
+	text-align: center;
+}
+
+.container .table table tr input {
+	float: none;
+}
+
+.container .table table tr th:last-child {
+	/* 暂时预留 */
+	/*width: 150px;*/
+}
+
+.container .table table tr td {
+	text-align: center;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+.container .table table tr td.person {
+	width: 70px;
+}
+
+.container .table table tr td.num {
+	width: 80px;
+}
+
+.container .table table tr td.status {
+	width: 50px;
+}
+
+.container .table table tr td.status.active {
+	color: red;
+}
+
+.container .table table tr td.op {
+	padding: 10px 0;
+	width: 120px;
+	box-sizing: border-box;
+}
+
+.container .table table tr td.address {
+	width: 255px;
+}
+
+.container .table table tr td.op button {
+	margin: 5px 0;
+}
+
+.container .table table tr:last-child td {
+	border-bottom: none;
+}
+
+.container .table table tr:hover {
+	background-color: #eef1f6;
+}

@@ -1,0 +1,116 @@
+.container .inner-container {
+	width: 960px;
+	padding:0px 120px 100px;
+	box-sizing: border-box;
+}
+.container .press-tips{
+	width: 68%;
+	margin-bottom: 100px;
+}
+.sesstion-main {
+	height: 446px;
+	width: 100%;
+	padding: 0 50px;
+	padding-top: 40px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	position: relative;
+}
+
+.sesstion-main h2{
+	height: 40px;
+	width: 220px;
+	font-size: 30px;
+	background-color: #fff;
+	position: absolute;
+	left: 60px;
+	top: -22px;
+}
+.sesstion-main h2 i{
+	display: inline-block;
+	font-size: 40px;
+	transform: rotate(90deg);
+}
+
+.sesstion-main .tab{
+	width: 86%;
+	height: 404px;
+	display: none;
+	position: absolute;
+	top: 40px;
+}
+.sesstion-main .tab h3{
+	height: 80px;
+}
+.sesstion-main .tab.active{
+	display: block;
+}
+.sesstion-main h1 {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px dashed #e6e6e6;
+	margin-bottom: 45px;
+	color: #ccc;
+}
+
+.sesstion-main li {
+	min-height: 60px;
+}
+
+.sesstion-main div {
+	min-height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+}
+
+.sesstion-main .left {
+	width: 25%;
+	text-align: right;
+}
+
+.sesstion-main .right {
+	width: 45%;
+	position: relative;
+}
+
+.sesstion-main .error-tips {
+	width: 30%;
+	color: red;
+	display: none;
+}
+
+.sesstion-main .error-tips.active {
+	display: block;
+}
+
+.sesstion-main .right input[type=text] {
+	height: 30px;
+	width: 100%;
+}
+
+.sesstion-main .right input[type=text],
+.sesstion-main .error-tips {
+	text-indent: 1em;
+	font-size: 12px;
+}
+
+.sesstion-main .right input[type=button] {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+
+/*
+ * 修改密码页面部分
+ * */
+
+.sesstion-main .right.confirm input {
+	width: 60%;
+}
+
+.sesstion-main .right.confirm button {
+	height: 30px;
+	padding: 0 14px;
+	line-height: 30px;
+	margin-top: 16px;
+}

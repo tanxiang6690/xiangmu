@@ -77,6 +77,41 @@ textarea:focus {
 	-o-transition: all .6s ease;
 }
 
+select {
+	color: #ccc;
+}
+
+select option {
+	color: #666;
+}
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #ccc;
+}
+
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #ccc;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #ccc;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #ccc;
+}
+
+input[type=checkbox],
+input[type=radio] {
+	width: 15px;
+}
+
 .my_btn {
 	color: #fff;
 	padding: 10px 20px;
@@ -252,8 +287,6 @@ html [type=button] {
 .container .inner-container {
 	width: 1200px;
 	margin: 0 auto;
-	/*height: 50px;*/
-	/*background: red;*/
 }
 
 .user_type {
@@ -333,34 +366,40 @@ html [type=button] {
 /* 步骤提示 */
 
 .press-tips {
-	height: 34px;
-	width: 482px;
-	background: url(../img/mod_sub_nav.png) no-repeat;
-	/*margin: 30px 0 30px 70px;*/
-	margin: 30px auto;
+	height: 50px;
+	width: 920px;
+	margin: 40px auto;
+	border-bottom: 3px solid #e6e6e6;
 }
 
 .press-tips li {
-	height: 100%;
-	width: 241px;
-	float: left;
-	line-height: 34px;
-	padding-left: 70px;
-	box-sizing: border-box;
+	width: 114px;
+	height: 50px;
+	margin: 0 17px;
 	font-size: 16px;
 	font-weight: bold;
+	padding: 0 7px;
+	box-sizing: border-box;
 }
 
-.press-tips .first.active {
-	background: url(../img/sub_nav_1.png) no-repeat;
-	color: #2e82ff;
+.press-tips li span {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	text-align: center;
+	background-image: url(../img/biaoti.png);
+	margin-right: .5em;
 }
 
-.press-tips .second.active {
-	background: url(../img/sub_nav_3.png) no-repeat;
-	background-size: cover;
-	color: #2e82ff;
-	padding-left: 80px;
+.press-tips li.active {
+	border-bottom: 3px solid #2e82ff;
+}
+
+.press-tips li.active span {
+	background-position: -35px 0;
 }
 
 

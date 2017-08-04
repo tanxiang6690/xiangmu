@@ -1,0 +1,251 @@
+.container {
+	width: 100%;
+}
+
+.container .logo {
+	width: 1200px;
+	height: 108px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.container .logo img {
+	display: inline-block;
+	width: 200px;
+}
+
+.container .logo h1 {
+	position: absolute;
+	top: 52px;
+	left: 200px;
+	font-size: 30px;
+}
+
+.container .header {
+	width: 100%;
+	height: 40px;
+	background-color: #2e82ff;
+}
+
+.container .header .header-inner {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.container .header .header-inner .nav {
+	width: 100%;
+	height: 40px;
+}
+
+.container .header .header-inner .nav .bg {
+	width: 248px;
+	height: 40px;
+	background: blue;
+	padding: 0;
+}
+
+.container .header .header-inner .nav .bg:hover {
+	background: blue;
+}
+
+.container .header .header-inner .nav li {
+	height: 100%;
+	padding: 0 20px;
+	margin-right: 5px;
+	float: left;
+}
+
+.container .header .header-inner .nav li:hover {
+	background: blue;
+}
+
+.container .header .header-inner .nav a {
+	height: 100%;
+	line-height: 40px;
+	font-size: 18px;
+	color: #F2F2F2;
+}
+
+.container .header .header-inner .sesstion {
+	width: 100%;
+	position: relative;
+}
+
+.sesstion-left {
+	width: 248px;
+	/*min-height: 300px;*/
+	background: #fbfbfb;
+	border-left: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	float: left;
+}
+
+.sesstion-left li {
+	padding: 20px 10px;
+	box-sizing: border-box;
+}
+
+.sesstion-left .change-img {
+	width: 100%;
+	height: 150px;
+}
+
+.sesstion-left .change-img p {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 15px;
+}
+
+.sesstion-left .change-img .change {
+	width: 130px;
+	margin: 0;
+}
+
+.sesstion-left .change-img .change .username {
+	line-height: 22px;
+}
+
+.sesstion-left .change-img .type {
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+}
+
+.sesstion-left .change-img .type em,
+.sesstion-left .change-img .change .username em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.sesstion-left .change-img .change .pass {
+	display: inline-block;
+	height: 20px;
+	position: relative;
+}
+
+.sesstion-left .change-img .change .pass i.iconfont {
+	font-style: normal;
+	position: absolute;
+	top: 9px;
+}
+
+.sesstion-left .change-img .change .pass i.iconfont.yes {
+	color: #1cdc1c;
+}
+
+.sesstion-left .change-img .change .pass i.iconfont.yes,
+.sesstion-left .change-img .change .pass i.iconfont.no {
+	font-size: 30px;
+}
+
+.sesstion-left .change-img .change .pass i.iconfont.no {
+	color: red;
+}
+
+.sesstion-left .change-img .change .pass .pass-son {
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	padding-left: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.sesstion-left .change-img a img {
+	width: 100%;
+	height: 100%;
+}
+
+.sesstion-left .op {
+	padding: 0 20px;
+}
+
+.sesstion-left .op h4 {
+	line-height: 3;
+}
+
+.sesstion-left .op p {
+	line-height: 2;
+}
+
+.sesstion-left .op p a {
+	line-height: 2;
+	color: #2e82ff;
+}
+
+.sesstion-left .road {
+	border-bottom: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+	font-size: 16px;
+	color: #000;
+	height: 40px;
+	line-height: 40px;
+	background: #f3f3f3;
+	padding: 0;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.sesstion-left .op-item {
+	height: 50px;
+	border-bottom: 1px dotted #E6E6E6;
+	padding: 0;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+
+.sesstion-left .op-item i {
+	line-height: 50px;
+	font-size: 26px;
+	color: #2e82ff;
+}
+
+.sesstion-left .op-item.active .fanhui {
+	display: block;
+}
+
+.sesstion-left .op-item .fanhui {
+	display: none;
+	float: right;
+	transform: rotate(180deg);
+	font-size: 16px;
+	color: #666666;
+}
+
+.sesstion-left .op-item i.ziliao {
+	font-size: 22px;
+}
+
+.sesstion-left .op-item a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.sesstion-left .op-item a span {
+	display: inline-block;
+	float: right;
+	padding-right: 5px;
+	color: #2e82ff;
+	box-sizing: border-box;
+}
+
+.sesstion-right {
+	float: left;
+	width: 950px;
+	/*min-height: 930px;*/
+	box-sizing: border-box;
+	position: relative;
+}
+
+
+/**/

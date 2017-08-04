@@ -1,0 +1,114 @@
+.container .title {
+	font-size: 30px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.sesstion-main {
+	width: 100%;
+	padding-top: 40px;
+}
+
+.sesstion-main li {
+	min-height: 60px;
+}
+
+.sesstion-main div {
+	min-height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+}
+
+.sesstion-main .left {
+	width: 25%;
+	text-align: right;
+}
+
+.sesstion-main .right {
+	width: 50%;
+	position: relative;
+}
+
+.sesstion-main .error-tips {
+	width: 25%;
+	color: red;
+	display: none;
+}
+
+.sesstion-main .error-tips.active {
+	display: block;
+}
+
+.sesstion-main .right input[type=email],
+.sesstion-main .right input[type=text] {
+	height: 30px;
+	width: 100%;
+}
+
+.sesstion-main .right input[type=email],
+.sesstion-main .right input[type=text],
+.sesstion-main .error-tips {
+	text-indent: 1em;
+	font-size: 12px;
+}
+
+.sesstion-main .right input.address {
+	width: 61.5%;
+}
+
+.sesstion-main .right select {
+	height: 30px;
+	margin-right: 5px;
+}
+
+.sesstion-main .right input[type=button] {
+	margin-top: 50px;
+	/*margin-left: 20%;*/
+}
+
+
+/*
+ * 修改密码页面部分
+ * */
+
+.sesstion-main .right.confirm input {
+	width: 75%;
+}
+
+.sesstion-main .right.confirm button {
+	height: 30px;
+	padding: 0 14px;
+	line-height: 30px;
+	margin-top: 16px;
+}
+
+
+/*
+ * 收货地址页面部分
+ * */
+
+.sesstion-main .right.address select {
+	width: 100%;
+}
+
+.sesstion-main .right textarea {
+	min-height: 100px;
+	max-height: 200px;
+	width: 100%;
+	padding: 3px;
+	box-sizing: border-box;
+	font-size: 12px;
+	resize: vertical;
+}
+
+.sesstion-main .right input[type=checkbox]{
+	position: absolute;
+	left: 0;
+	top: 24px;
+}
+
+.sesstion-main .right.default{
+	font-size: 12px;
+}
+

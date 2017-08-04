@@ -12,7 +12,7 @@ $(function() {
 	 * */
 	$(window.parent.document).find("#iframeId").load(function() {
 		var main = $(window.parent.document).find("#iframeId");
-		var thisheight = $(document).height() + 30;
+		var thisheight = $(document).height() + 80;
 		main.height(thisheight);
 	});
 
@@ -26,4 +26,6 @@ $(function() {
 		prevContent: '上页',
 		nextContent: '下页'
 	});
+
+	
 })

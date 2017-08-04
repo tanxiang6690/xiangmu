@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>账号管理</title>
+		<link rel="stylesheet" href="lib/font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/account.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="logo">
+				<img src="img/logo.jpg" align="bottom" />
+				<h1>账号管理</h1>
+			</div>
+			
+			<div class="header">
+				<div class="header-inner">
+					<ul class="nav">
+						<li class="bg"></li>
+						<li class="transition3s">
+							<a href="#">首页</a>
+						</li>
+						<li class="transition3s">
+							<a href="order.html">我的订单</a>
+						</li>
+					</ul>
+
+					<div class="sesstion clearfix">
+						<div class="sesstion-left">
+							<ul class="clearfix">
+								<li class="change-img">
+									<p>
+										<a href="javascript:;">
+											<img src="img/touxiang.jpg" />
+										</a>
+									</p>
+									<p class="change">
+										<span class="username"><em>用户名：</em><br />对对对东啊省地伸缩</span>
+										<span class="pass">
+											<i class="iconfont icon-businesscard yes"></i>
+											<i class="pass-son">已认证</i>
+										</span>
+									</p>
+									<p class="type">
+										<span><em>类型：</em>加快了就快了看</span>
+									</p>
+								</li>
+								<li class="road">账号信息</li>
+								<li class="op-item active">
+									<i class="iconfont icon-ziliao ziliao"></i>
+									<a href="accountInfo.html" target="account">基本资料</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+								<li class="op-item change-pw">
+									<i class="iconfont icon-suo"></i>
+									<a href="editPwd.html" target="account">修改密码</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+								<li class="op-item change-pw">
+									<i class="iconfont icon-ditudizhi"></i>
+									<a href="reviceAdressList.html" target="account">收货地址</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="sesstion-right">
+							<iframe src="accountInfo.html" id="iframeId" name="account" scrolling="no" frameborder="no" width="100%" height=""></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="footer">&copy;版权所有</div>
+			</div>
+		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/account.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

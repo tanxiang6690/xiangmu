@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>基本资料</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/accountInfo.css" />
+	</head>
+
+	<body>
+		<div class="container pad20">
+			<h1 class="title border-b">修改密码</h1>
+			<div class="sesstion-main">
+				<ul>
+					<li class="clearfix">
+						<div class="left float-l">新密码：</div>
+						<div class="right float-l">
+							<input type="text" placeholder="长度为6-14个字符,支持数字、大小写和标点符号,不容许有空格" />
+						</div>
+						<div class="error-tips float-l active">错误提示</div>
+					</li>
+					
+					<li class="clearfix">
+						<div class="left float-l">确认新密码：</div>
+						<div class="right float-l">
+							<input type="text" placeholder="确认新密码" />
+						</div>
+						<div class="error-tips float-l active">错误提示</div>
+					</li>
+					<li class="clearfix">
+						<div class="left float-l">手机号码：</div>
+						<div class="right float-l">
+							<input type="text" placeholder="输入手机号码" />
+						</div>
+						<div class="error-tips float-l">错误提示</div>
+					</li>
+					<li class="clearfix">
+						<div class="left float-l">验证码：</div>
+						<div class="right confirm float-l">
+							<input type="text" placeholder="输入验证码" />
+							<button class="my_btn float-r">获取验证码</button>
+						</div>
+					</li>
+					<li class="clearfix">
+						<div class="left float-l"></div>
+						<div class="right float-l">
+							<input type="button" class="my_btn" onclick="alert('密码修改成功')" value="确认修改" />
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/assets/js/jquery.pagination.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
