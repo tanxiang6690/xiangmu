@@ -1,0 +1,174 @@
+.inner-container .title {
+	line-height: 3;
+}
+
+.inner-container .list li {
+	width: 100%;
+	min-height: 50px;
+	box-sizing: border-box;
+	border-bottom: 1px dotted #e6e6e6;
+}
+
+.inner-container .list li .list-detail {
+	width: 50%;
+	line-height: 50px;
+}
+
+.inner-container .list li .list-detail p,
+.inner-container .list li .upload p {
+	height: 50px;
+	line-height: 50px;
+	width: 120px;
+	text-align: right;
+}
+
+.inner-container .list li .list-detail input[type=text],
+.inner-container .list li .list-detail select {
+	width: 400px;
+	height: 30px;
+	margin-top: 10px;
+	text-indent: 1em;
+}
+.inner-container .list li .list-detail input[type=number]{
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+	text-indent: 0.5em;
+}
+.inner-container .list li .list-detail textarea {
+	min-height: 100px;
+	width: 400px;
+	max-width: 400px;
+	margin-top: 10px;
+	text-indent: 1em;
+	margin-bottom: 10px;
+}
+
+.inner-container .list li .list-detail input[type=radio] {
+	margin-top: 20px;
+}
+
+.inner-container .list li .list-detail input.other {
+	width: 180px;
+}
+
+.inner-container .list li .list-detail input.standard {
+	width: 250px;
+}
+
+.inner-container .list li .list-detail span,
+.inner-container .title span {
+	color: red;
+}
+
+.inner-container .list li .list-detail.tao-can select {
+	width: 195px;
+}
+
+.inner-container .list li .list-detail.tao-can select:first-of-type {
+	margin-right: 10px;
+}
+
+.inner-container .list li .list-detail button {
+	margin: 0;
+	height: 30px;
+	margin-left: 10px;
+	line-height: 10px;
+}
+.inner-container .list li .list-detail.address,
+.inner-container .list li .list-detail.address p{
+	width: 100%;
+	text-align: left;
+	text-indent: 1.5em;
+}
+
+.inner-container .list li.upload{
+	border-bottom: 1px solid #e6e6e6;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+.inner-container .list li .upload {
+	width: 100%;
+}
+.inner-container .list li .upload .my_btn {
+	margin-top: 15px;
+	margin-left: 30px;
+	margin-bottom: 0;
+	height: 34px;
+    line-height: 10px;
+}
+.inner-container .list li .upload h6 {
+    font-weight: 100;
+    text-indent: 2.4em;
+    font-size: 12px;
+    line-height: 2.5;
+    color: #b7b7b7;
+}
+
+.inner-container .list li .upload ul li {
+    min-height: 30px;
+    line-height: 30px;
+    padding: 0 26px;
+    box-sizing: border-box;
+}
+.inner-container .list li .upload ul li i.icon-duihao{
+	margin-right: 100px;
+	color: greenyellow;
+}
+.inner-container .list li.no-border {
+	border: 0;
+}
+
+.inner-container .list li.jia-ge {
+	margin: 20px 0;
+	background-color: #fbfbfb;
+	text-align: right;
+	line-height: 2;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+table {
+	border-radius: 2px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+table tr {
+	height: 30px;
+	line-height: 30px;
+	box-sizing: border-box;
+	font-size: 12px;
+	text-align: center;
+}
+
+table tr td input {
+	display: inline-block;
+	float: none;
+}
+
+table tr:hover {
+	transition: all 0.6s ease;
+	background-color: #fdfcfc;
+}
+
+table tr:first-child {
+	background-color: #ececec;
+}
+
+table tr:last-child td {
+	border-bottom: none;
+}
+
+table tr+th,
+table tr+td {
+	max-width: 30px;
+}
+
+table tr input {
+	width: 15px;
+}
+
+/*.footer{
+	margin-top: 100px;
+}*/

@@ -250,8 +250,8 @@ input[type=radio] {
 .container .inner-container {
 	width: 1200px;
 	margin: 0 auto;
-	/*height: 50px;*/
-	/*background: red;*/
+	/*height: 50px;
+	background-color: red;*/
 }
 
 .user_type {
@@ -305,7 +305,7 @@ input[type=radio] {
 }
 
 
-/* 关于边框线的设置 */
+/* 关于实线边框线的设置 */
 
 .border-l {
 	border-left: 1px solid #e6e6e6;
@@ -338,12 +338,12 @@ input[type=radio] {
 }
 
 .press-tips li{
-	width: 114px;
+	width: 117px;
 	height: 50px;
-	margin: 0 17px;
+	margin: 0 15px;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 0 7px;
+	padding: 0 3px;
 	box-sizing: border-box;
 }
 

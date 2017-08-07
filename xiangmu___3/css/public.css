@@ -184,6 +184,14 @@ html [type=button] {
 }
 
 
+/*这个类用来让所有的内容向左缩进20px*/
+
+.pad20-l {
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+
 /*这个类用来让所有的内容左右缩进10px*/
 
 .pad10 {

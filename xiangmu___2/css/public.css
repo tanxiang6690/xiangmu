@@ -80,8 +80,43 @@ textarea:focus {
 	/* Opera */
 	-o-transition: all .6s ease;
 }
+select {
+	color: #ccc;
+}
+
+select option {
+	color: #666;
+}
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #ccc;
+}
+
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #ccc;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #ccc;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #ccc;
+}
+
+input[type=checkbox],
+input[type=radio] {
+	width: 15px;
+}
 
 /* 第一种按钮 */
+
 .my_btn {
 	color: #fff;
 	padding: 7px 20px;
@@ -98,48 +133,52 @@ textarea:focus {
 	-o-transition: all .6s ease;
 }
 
+
 /* 第二种按钮 */
-[type=reset], [type=submit], button, html [type=button] {
-    -webkit-appearance: button;
+
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
+	-webkit-appearance: button;
 }
 
-.my_btn_1{
+.my_btn_1 {
 	/* 修改按钮  */
 	display: inline-block;
-    line-height: 1;
-    white-space: nowrap;
-    cursor: pointer;
-    background: #fff;
-    border: 1px solid #bfcbd9;
-    color: #1f2d3d;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 5px 15px;
-    font-size: 14px;
-    border-radius: 4px;
+	line-height: 1;
+	white-space: nowrap;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #bfcbd9;
+	color: #1f2d3d;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 15px;
+	font-size: 14px;
+	border-radius: 4px;
 }
 
-.my_btn_1:hover{
+.my_btn_1:hover {
 	border: 1px solid rgb(32, 160, 255);
 	color: rgb(32, 160, 255);
-	
 }
 
-.my_btn_2{
+.my_btn_2 {
 	/* 删除按钮  */
 	display: inline-block;
-    line-height: 1;
-    white-space: nowrap;
-    cursor: pointer;
-    background: #fff;
-    border: 1px solid #ff4949;
-    color: #fff;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 5px 15px;
-    font-size: 14px;
-    border-radius: 4px;
-    background-color: #ff4949;
+	line-height: 1;
+	white-space: nowrap;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid #ff4949;
+	color: #fff;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px 15px;
+	font-size: 14px;
+	border-radius: 4px;
+	background-color: #ff4949;
 }
 
 .btn {
@@ -147,6 +186,12 @@ textarea:focus {
 	float: left;
 }
 
+/*这个类用来让所有的内容左右缩进10px*/
+
+.pad10 {
+	padding: 0 10px;
+	box-sizing: border-box;
+}
 
 /*这个类用来让所有的内容左右缩进20px*/
 
@@ -156,12 +201,14 @@ textarea:focus {
 }
 
 
-/*这个类用来让所有的内容左右缩进10px*/
+/*这个类用来让所有的内容向左缩进20px*/
 
-.pad10 {
-	padding: 0 10px;
+.pad20-l {
+	padding-left: 20px;
 	box-sizing: border-box;
 }
+
+
 
 
 /*这个类用来让所有的内容左右缩进90px*/
@@ -170,7 +217,12 @@ textarea:focus {
 	padding: 0 90px;
 	box-sizing: border-box;
 }
+/*这个类用来让所有的内容向左缩进90px*/
 
+.pad90-l {
+	padding-left: 90px;
+	box-sizing: border-box;
+}
 
 /*这个类用来让所有的内容左右缩进360px*/
 
@@ -178,6 +230,7 @@ textarea:focus {
 	padding: 0 360px;
 	box-sizing: border-box;
 }
+
 
 /*这个类用来撑开容器的高度*/
 
@@ -252,17 +305,22 @@ textarea:focus {
 	height: 80px;
 	margin-right: 100px;
 }
-/*.container .logo ul li*/ 
 
-.container .logo ul a{
+
+/*.container .logo ul li*/
+
+.container .logo ul a {
 	line-height: 80px;
 	margin: 0 15px;
 	color: #fff;
 	font-size: 16px;
 }
+
+
 /*.container .logo ul a:last-child{
 	margin-right:100px;
 }*/
+
 
 /* 页面左边 */
 

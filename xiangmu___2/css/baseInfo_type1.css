@@ -1,0 +1,212 @@
+.container .inner-container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.container .inner-container .title {
+	line-height: 3;
+}
+
+.user_type {
+	width: 100%;
+	min-height: 50px;
+	margin: 30px 0;
+	position: relative;
+}
+
+.user_type.tab {
+	min-height: 190px;
+}
+
+.container .inner-container .user_type p {
+	height: 100%;
+	width: 13%;
+	line-height: 50px;
+	font-size: 18px;
+}
+
+.container .inner-container .user_type input {
+	display: block;
+	height: 30px;
+	width: 30%;
+	text-indent: 1.5em;
+	margin-top: 10px;
+}
+
+.container .inner-container .user_type .base-info li {
+	min-height: 60px;
+	width: 100%;
+}
+
+.container .inner-container .user_type .base-info li div {
+	height: 100%;
+	width: 13%;
+	text-align: right;
+	line-height: 60px;
+}
+
+.container .inner-container .user_type .base-info li .right {
+	min-height: 60px;
+	width: 87%;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+
+.container .inner-container .user_type .base-info li .right input[type=checkbox] {
+	width: 15px;
+}
+
+.container .inner-container .user_type .base-info li .right .kind-tips {
+	width: 28%;
+	line-height: 30px;
+	text-align: left;
+	text-indent: 1.5em;
+	color: orangered;
+	font-size: 12px;
+}
+
+.container .inner-container .user_type .base-info li .right input {
+	width: 60%;
+	height: 30px;
+	margin: 0;
+}
+.container .inner-container .user_type .base-info li .right p {
+    width: 82%;
+    line-height: 2;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+}
+
+.container .inner-container .user_type .base-info li .right.address select{
+	width: 29%;
+}
+.container .inner-container .user_type .base-info li .right.address select:first-child{
+	margin-right: 2%;
+}
+.container .inner-container .user_type .file-tab {
+	position: absolute;
+	left: 90px;
+	display: none;
+}
+
+.container .inner-container .user_type .file-tab.active {
+	display: block;
+}
+
+.container .inner-container .user_type .file-tab.active {
+	display: block;
+}
+
+.container .inner-container .user_type .base-info li div {
+	width: 17%;
+}
+
+.container .inner-container .user_type .base-info li .right {
+	width: 83%;
+}
+
+
+/* 送检页面开始 */
+
+.container .inner-container .user_type .base-info li .right.ingredient select {
+	width: 15%;
+}
+
+.container .inner-container .user_type .base-info li .right.ingredient input {
+	width: 28%;
+}
+
+.container .inner-container .user_type .base-info li .right.check-purpose input.other {
+	width: 25%;
+}
+
+.container .inner-container .user_type .base-info li .right.check-purpose .scope-business {
+	width: 15%;
+}
+
+.container .inner-container .user_type .base-info li .right.check-purpose .scope-business.other {
+	width: 5%;
+}
+
+
+/* 送检页面结束 */
+
+.container .inner-container .user_type .base-info li .right select {
+	height: 30px;
+	text-indent: 1.5em;
+	width: 60%;
+}
+
+.container .inner-container .user_type .base-info li .right .scope-business {
+	width: 10%;
+	height: 100%;
+	line-height: 30px;
+	text-align: left;
+}
+
+.container .inner-container .user_type .zhengjian-type {
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+}
+
+.container .inner-container .user_type .zhengjian-type p {
+	width: 25%;
+}
+
+.container .inner-container .user_type .zhengjian-type p.tab {
+	width: 50%;
+}
+
+.container .inner-container .user_type p input[type=radio] {
+	width: 15px;
+	height: 15px;
+	margin-top: 18px;
+}
+
+.container .inner-container .user_type .file {
+	height: 150px;
+	width: 350px;
+}
+
+.container .inner-container .user_type .file h1 {
+	font-weight: normal;
+	line-height: 40px;
+}
+
+.container .inner-container .user_type .file .file-img {
+	height: 110px;
+	width: 45%;
+	float: left;
+	position: relative;
+}
+
+.container .inner-container .user_type .file .file-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.container .inner-container .user_type .file .file-img.upload i {
+	background: rgba(0, 0, 0, 0.1);
+	border: 2px dashed #cacaca;
+	box-sizing: border-box;
+}
+
+.container .inner-container .user_type .file .file-img.upload i.to-upload {
+	color: #666;
+	cursor: pointer;
+}
+
+.container .inner-container .user_type .file .file-img i {
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 40px;
+	line-height: 110px;
+	text-align: center;
+	color: #fff;
+}
+
+.container .inner-container .user_type .file .file-img i.to-upload {
+	line-height: 160px;
+	font-size: 14px;
+}
