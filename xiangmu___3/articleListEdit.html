@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>文章管理_文章列表_编辑页面</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/add.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<!--
+            	作者：tanxiang6690@163.com
+            	时间：2017-07-31
+            	描述：面包屑导航
+            -->
+			<ul class="menu clearfix border-b pad20">
+				<li class="float-l transition3s">首页</li>
+				<li class="float-l transition3s">/</li>
+				<li class="float-l transition3s">项目</li>
+				<li class="float-l transition3s">/</li>
+				<li class="float-l transition3s">文章管理_文章列表_编辑页面</li>
+			</ul>
+			<ul class="list pad20">
+				<li class="clearfix">
+					<p class="float-l">文章标题</p>
+					<div class="text float-l">
+						<input type="text" placeholder="文章标题" />
+					</div>
+					<div class="error-tips float-l">
+						错误提示
+					</div>
+				</li>
+				<li class="clearfix">
+					<p class="float-l">文章分类</p>
+					<div class="text float-l">
+						<select name="">
+							<option value="">文章分类一</option>
+							<option value="">文章分类二</option>
+							<option value="">文章分类三</option>
+							<option value="">文章分类四</option>
+						</select>
+					</div>
+					<div class="error-tips float-l">
+						错误提示
+					</div>
+				</li>
+				<li class="clearfix">
+					<p class="float-l">文章重要性</p>
+					<div class="text float-l">
+						<form>
+							<input type="radio" class="float-l" checked="checked" name="important" id="no-important"/>
+							<label for="no-important" class="float-l">普通</label>
+							<input type="radio" class="float-l" name="important" id="is-important" />
+							<label for="is-important" class="float-l">置顶</label>
+						</form>
+					</div>
+				</li>
+				<li class="clearfix">
+					<p class="float-l">是否显示</p>
+					<div class="text float-l">
+						<form>
+							<input type="radio" class="float-l" checked="checked" name="show" id="is-show" />
+							<label for="is-show" class="float-l">是</label>
+							<input type="radio" class="float-l" name="show" id="no-show"/>
+							<label for="no-show" class="float-l">否</label>
+						</form>
+					</div>
+				</li>
+				<li class="clearfix">
+					<p class="float-l">文章作者</p>
+					<div class="text float-l">
+						<input type="text" placeholder="文章作者" />
+					</div>
+					<div class="error-tips float-l">
+						关键字为选填项，其目的在于方便外部搜索引擎搜索描述	
+					</div>
+				</li>
+				<li class="clearfix">
+					<p class="float-l">关键字</p>
+					<div class="text float-l">
+						<input type="text" placeholder="关键字" />
+					</div>
+					<div class="error-tips float-l">
+						关键字为选填项，其目的在于方便外部搜索引擎搜索描述	
+					</div>
+				</li>
+				<li class="clearfix">
+					<p class="float-l">描述</p>
+					<div class="text float-l">
+						<textarea name="" rows="" cols=""></textarea>
+					</div>
+				</li>
+				<li class="clearfix">
+					<p class="float-l">外部链接</p>
+					<div class="text float-l">
+						<input type="text" value="http://" />
+					</div>
+				</li>
+				<li class="clearfix pad360">
+					<div class="text float-l">
+						<button class="my_btn">确定</button>
+						<button class="my_btn">返回</button>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

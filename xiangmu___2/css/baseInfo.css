@@ -1,4 +1,8 @@
+.container .menu{
+	margin-bottom: 20px;
+}
 .container .inner-container {
+	
 	width: 900px;
 	margin: 0 auto;
 }

@@ -1,0 +1,184 @@
+.container .container-inner .search {
+	width: 1000px;
+	height: 100%;
+	padding-left: 150px;
+	box-sizing: border-box;
+}
+
+.container .container-inner .search form {
+	width: 570px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: #08d;
+}
+
+.container .container-inner .search input[type=text] {
+	width: 480px;
+	height: 100%;
+	border: 2px solid #08d;
+	text-indent: 1em;
+}
+
+.container .container-inner .search input[type=submit] {
+	width: 90px;
+	height: 100%;
+	background-color: #08d;
+	border: 0;
+	border-radius: 0;
+	color: #fff;
+}
+
+.container .container-inner .search ul {
+	line-height: 30px;
+}
+
+.container .container-inner .search ul li {
+	padding-right: 10px;
+}
+
+.container .container-inner .search ul li a {
+	font-size: 12px;
+}
+
+
+/* banner部分 */
+
+.container .container-inner .nav {
+	background-color: #08d;
+}
+
+.container .container-inner .nav-list a,
+.container .container-inner .nav-list:hover a {
+	color: #fff;
+}
+
+.container .container-inner .banner {
+	width: 100%;
+	height: 448px;
+}
+
+.container .container-inner .banner .banner-left,
+.container .container-inner .banner .banner-right {
+	height: 100%;
+	width: 230px;
+	position: relative;
+}
+
+.container .container-inner .banner .banner-left ul li {
+	width: 100%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+}
+
+.container .container-inner .banner .banner-left ul li a:hover {
+	color: #08d;
+}
+
+.container .container-inner .banner .banner-left ul li:last-of-type {
+	border: none;
+}
+
+.container .container-inner .banner .banner-left ul li h1 {
+	line-height: 2.3;
+}
+
+.container .container-inner .banner .banner-left ul li a {
+	line-height: 1.5;
+	padding-right: 5px;
+	box-sizing: border-box;
+}
+
+.container .container-inner .banner .banner-center {
+	height: 100%;
+	width: 740px;
+	padding: 5px 5px 0 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#igs {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.ig img {
+	height: 100%;
+	width: 100%;
+}
+
+.ig {
+	position: absolute;
+	display: none;
+}
+
+.ig.active {
+	display: block;
+}
+
+#tabs {
+	position: absolute;
+	left: 315px;
+	bottom: 10px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.tab {
+	float: left;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	margin-right: 10px;
+	border-radius: 100%;
+	border: 1px solid #fff;
+}
+
+.tab.active {
+	background-color: #fff;
+}
+
+.banner .banner-right .user-info {
+	text-align: center;
+	background-color: #fff;
+	padding-bottom: 15px;
+}
+
+.banner .banner-right .user-info .unlogin {
+	width: 56px;
+	height: 56px;
+	margin: 16px 0 7px;
+	display: inline-block;
+	background-image: url(../img/user.jpg);
+	background-size: cover;
+}
+
+.banner .banner-right .user-info p {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.banner .banner-right .other-info {
+	background-color: #f9f9f9;
+	height: 84px;
+}
+
+.banner .banner-right .other-info .other-info-item {
+	width: 50%;
+	text-align: center;
+}
+
+.banner .banner-right .other-info .other-info-item i {
+	font-size: 24px;
+	line-height: 32px;
+	color: #3978f7;
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	border: 2px solid #3978f7;
+	-webkit-border-radius: 36px;
+	-moz-border-radius: 36px;
+	border-radius: 36px;
+	margin: 12px 0 7px;
+	font-weight: bold;
+}
