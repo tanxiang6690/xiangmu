@@ -6,10 +6,30 @@
 	line-height: 44px;
 	font-size: 12px;
 }
+.item .item-left .post-title {
+    font-size: 28px;
+    color: #393939;
+    line-height: 32px;
+    border-left: 4px solid #3978f7;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 21px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.item .item-left .article-meta {
+   padding: 0 25px;
+    margin-bottom: 20px;
+}
 
 .item .item-left ul li {
 	margin: 0;
+	height: auto;
 }
+
+/*.item .item-left ul li*/
 
 .item .item-left ul li span,
 .item .item-left ul li strong {

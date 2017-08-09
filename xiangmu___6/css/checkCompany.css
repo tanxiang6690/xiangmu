@@ -1,0 +1,138 @@
+.item .item-right {
+	border-radius: 4px;
+	width: 290px;
+	background: #fff;
+	padding: 0 25px;
+	box-sizing: border-box;
+	margin-top: 25px;
+}
+
+.item .item-right h3 {
+	color: #757575;
+	font-size: 14px;
+	line-height: 57px;
+	height: 57px;
+	font-weight: normal;
+}
+
+.item .item-right .item-right-img {
+	margin-bottom: 8px;
+	display: inline-block;
+	width: 240px;
+	height: 148px;
+}
+
+.item .item-right .item-right-img img {
+	width: 240px;
+	height: 148px;
+}
+
+.item .item-right li {
+	margin-bottom: 20px;
+}
+
+.item .item-right li h4 {
+	line-height: 24px;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.item .item-right li h4 a {
+	cursor: pointer;
+	margin-right: 10px;
+	font-size: 14px;
+	color: #434343;
+}
+
+.item .item-right li p {
+	line-height: 20px;
+	font-size: 12px;
+	color: #8a8a8a;
+	margin-top: 5px;
+}
+
+.item .item-left {
+	width: 874px;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+.nav-bar-row {
+	font-size: 12px;
+	height: 52px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.nav-bar-row ul{
+	background-color: #f9f9f9;
+}
+
+.nav-bar-row li {
+	height: 50px;
+	line-height: 50px;
+}
+
+.nav-bar-row li i {
+	display: inline-block;
+	transform: rotate(-90deg);
+	font-size: 12px;
+}
+
+.nav-bar-row li:hover .iconfont {
+	transform: rotate(90deg);
+}
+
+.item-detail {
+	width: 100%;
+	padding: 25px 25px 0;
+}
+.sch-result li {
+    padding: 20px 0;
+    border-bottom: 1px dashed #e6e6e6;
+}
+.sch-result li:last-child{
+	border: none;
+}
+.sch-result .sch-left {
+	width: 590px;
+}
+
+.sch-result .sch-left h4 a{
+    line-height: 2;
+    font-size: 18px;
+}
+
+.sch-result .result-dpn,
+.sch-result .result-key {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.sch-result .result-key {
+    margin-top: 10px;
+    color: #999;
+}
+
+.sch-result .result-key a {
+	font-size: 12px;
+    color: #ff7300;
+    margin-left: 25px;
+}
+
+.sch-result .sch-right {
+    float: right;
+    width: 150px;
+    padding-top: 40px;
+    text-align: right;
+}
+
+input{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
