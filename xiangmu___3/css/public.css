@@ -277,6 +277,7 @@ html [type=button] {
 	width: 100%;
 	height: 80px;
 	background-color: rgb(32, 160, 255);
+	position: fixed;
 }
 
 .container .logo img {
@@ -313,7 +314,7 @@ html [type=button] {
 	min-width: 160px;
 	background-color: #eef1f6;
 	box-sizing: border-box;
-	position: absolute;
+	position: fixed;
 	top: 80px;
 	left: 0;
 }
@@ -336,6 +337,7 @@ html [type=button] {
 	height: 60px;
 	width: 100%;
 	line-height: 60px;
+	margin-top: 80px;
 }
 
 .container .menu li {

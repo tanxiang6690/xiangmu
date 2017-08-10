@@ -5,6 +5,7 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="lib/font/iconfont.css" />
 		<title>订单确认</title>
+		<link rel="stylesheet" type="text/css" href="lib/assets/css/b.dialog.css" />
 		<link rel="stylesheet" type="text/css" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/orderConfirm.css" />
 	</head>
@@ -33,9 +34,9 @@
 						<h2 class="clearfix">
 							<a href="javascript:;" class="float-l">选择纸质报告</a>
 							<form>
-								<input type="radio" class="float-l" checked="checked" name="Sex" id="no" value="male" />
+								<input type="radio" class="float-l" checked="checked" name="report" id="no"/>
 								<label for="no" class="float-l">否</label>
-								<input type="radio" class="float-l" name="Sex" id="yes" value="female" />
+								<input type="radio" class="float-l" name="report" id="yes"/>
 								<label for="yes" class="float-l">是&ensp;&ensp;需要</label>
 								<input min="1" max="99" value="1" maxlength="2" step="1" pattern="[0-9]{2}" type="number">份（<span>每份：￥33.0元</span>）
 							</form>
@@ -61,7 +62,7 @@
 										<label for="defult-dizhi">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r alert-btn2">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
@@ -75,7 +76,7 @@
 										<label for="dizhi-1">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
@@ -89,7 +90,7 @@
 										<label for="dizhi-2">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
@@ -103,7 +104,7 @@
 										<label for="dizhi-3">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
@@ -117,7 +118,7 @@
 										<label for="dizhi-4">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
@@ -131,7 +132,7 @@
 										<label for="dizhi-5">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
@@ -145,7 +146,7 @@
 										<label for="dizhi-6">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
@@ -159,7 +160,7 @@
 										<label for="dizhi-7">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
@@ -173,7 +174,7 @@
 										<label for="dizhi-8">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）19709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
@@ -187,7 +188,7 @@
 										<label for="dizhi-9">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）110709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
@@ -201,14 +202,14 @@
 										<label for="dizhi-10">
 										甘肃省 天水市 秦州区 石马坪街道 甘肃省天水市秦州区籍河南路天水师范学院（史陇陇 收）15709482746&ensp;&ensp;&ensp;
 										<span>默认地址</span>
-										<input type="button" value="修改本地址" class="float-r">
+										<input type="button" value="修改本地址" class="float-r change-adress">
 									</label>
 									</div>
 								</li>
 							</ul>
 						</div>
 						<div class="btn add pad90">
-							<button class="bg"></button>
+							<button class="bg add-adress"></button>
 						</div>
 					</div>
 					<h1 class="title border-b">确认订单信息</h1>
@@ -262,8 +263,84 @@
 				<div class="footer">&copy;版权所有</div>
 			</div>
 		</div>
+		<div id="innerContent" class="modul">
+			<form action="#" method="get">
+				<ul class="modul-item">
+					<li class="clear">
+						<div class="left float-l">所在地区</div>
+						<div class="right float-l">
+							<select name="address">
+								<option value="">请选择省、市、区</option>
+								<option value="">浙江&nbsp;/&nbsp;杭州&nbsp;/&nbsp;余杭&nbsp;/&nbsp;临平大道797号</option>
+								<option value="">浙江&nbsp;/&nbsp;杭州&nbsp;/&nbsp;余杭&nbsp;/&nbsp;临平大道797号</option>
+								<option value="">浙江&nbsp;/&nbsp;杭州&nbsp;/&nbsp;余杭&nbsp;/&nbsp;临平大道797号</option>
+							</select>
+						</div>
+					</li>
+					<li class="clear">
+						<div class="left float-l">详细地址</div>
+						<div class="right float-l">
+							<textarea name="adress" rows="" cols="">建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息</textarea>
+						</div>
+					</li>
+					<li class="clear">
+						<div class="left float-l">邮政编码</div>
+						<div class="right float-l">
+							<input type="text" name="code" class="normal" value="000000" placeholder="如您不清楚邮递区号，请填写000000" />
+						</div>
+					</li>
+					<li class="clear">
+						<div class="left float-l">收货人姓名</div>
+						<div class="right float-l">
+							<input type="text" name="name" class="normal" value="阿凡达" placeholder="长度不超过25个字符" />
+						</div>
+					</li>
+					<li class="clear">
+						<div class="left float-l">手机号码</div>
+						<div class="right float-l">
+							<input type="text" name="phone" class="normal" />
+						</div>
+					</li>
+					<li class="clear">
+						<div class="left float-l"></div>
+						<div class="right float-l">
+							<input type="checkbox" name="default-adress" id="set-default" />
+							<lable for="set-default">&ensp;&ensp;&ensp;&ensp;设置为默认地址</lable>
+						</div>
+					</li>
+					<li class="clear">
+						<div class="left float-l"></div>
+						<div class="right float-l">
+							<input type="submit" class="my_btn sub" value="保存" />
+						</div>
+					</li>
+				</ul>
+			</form>
+		</div>
 		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/assets/js/b.dialog.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/orderConfirm.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.change-adress, .add-adress').click(function() {
+					bDialog.open({
+						// backdrop: true,
+						title: '创建地址',
+						width: 860,
+						height: 530,
+						dialogMaxButton: false
+					}, $('#innerContent').html());
+
+					$('.sub').click(function() {
+						alert(1);
+						/*
+						 * 最后执行
+						 * */
+						bDialog.closeCurrent();
+					})
+				})
+			})
+		</script>
 	</body>
 
 </html>

@@ -1,8 +1,8 @@
-.container .menu{
+.container .menu {
 	margin-bottom: 20px;
 }
+
 .container .inner-container {
-	
 	width: 900px;
 	margin: 0 auto;
 }
@@ -20,6 +20,13 @@
 
 .user_type.tab {
 	min-height: 190px;
+}
+
+
+/* 当上传的图片超过两个时 */
+
+.user_type.tab.more {
+	min-height: 340px;
 }
 
 .container .inner-container .user_type p {
@@ -69,25 +76,34 @@
 	font-size: 12px;
 }
 
-.container .inner-container .user_type .base-info li .right input {
+.container .inner-container .user_type .base-info li .right input,
+.container .inner-container .user_type .base-info li .right textarea {
 	width: 60%;
 	height: 30px;
 	margin: 0;
-}
-.container .inner-container .user_type .base-info li .right p {
-    width: 82%;
-    line-height: 2;
-    font-size: 14px;
-    color: #666;
-    text-align: left;
+	resize: vertical;
 }
 
-.container .inner-container .user_type .base-info li .right.address select{
+.container .inner-container .user_type .base-info li .right textarea {
+	min-height: 100px;
+}
+
+.container .inner-container .user_type .base-info li .right p {
+	width: 82%;
+	line-height: 2;
+	font-size: 14px;
+	color: #666;
+	text-align: left;
+}
+
+.container .inner-container .user_type .base-info li .right.address select {
 	width: 29%;
 }
-.container .inner-container .user_type .base-info li .right.address select:first-child{
+
+.container .inner-container .user_type .base-info li .right.address select:first-child {
 	margin-right: 2%;
 }
+
 .container .inner-container .user_type .file-tab {
 	position: absolute;
 	left: 90px;

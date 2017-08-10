@@ -2,9 +2,11 @@
 	width: 1200px;
 	margin: 0 auto;
 }
-.container .header .header-inner .tab{
+
+.container .header .header-inner .tab {
 	display: none;
 }
+
 .container .header .header-inner .title {
 	line-height: 3;
 }
@@ -286,3 +288,64 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+/* 修改地址弹窗 */
+.modul{
+	display: none;
+}
+
+/*.modul-title {
+    font-weight: 100;
+}*/
+/*.modul-title span,*/
+.modul-item li{
+	display: inline-block;
+	font-size: 12px;
+	min-height: 26px;
+	line-height: 26px;
+}
+
+.left{
+	height: 26px;
+	width: 100px;
+	text-align: right;
+	padding-right: 5px;
+	box-sizing: border-box;
+}
+
+.right{
+	width: 740px;
+	cursor: pointer;
+	position: relative;
+}
+.modul-item li {
+	margin-top: 10px;
+}
+.modul-item .right select{
+	width: 300px;
+}
+.modul-item .right select,
+.modul-item .right input[type=text]{	
+	height: 30px;
+	font-size: 12px;
+}
+
+.modul-item .right textarea{
+	width: 404px;
+	height: 80px;
+	max-width: 600px;
+}
+
+.modul-item .right input[type=text].normal{
+	width: 240px;
+}
+
+.modul-item .right input[type=checkbox]{
+	position: absolute;
+	top: 4px;
+}
+
+.modul-item .right input[type=submit]{
+	padding: 6px 25px;
+}
+

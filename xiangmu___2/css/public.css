@@ -80,6 +80,7 @@ textarea:focus {
 	/* Opera */
 	-o-transition: all .6s ease;
 }
+
 select {
 	color: #ccc;
 }
@@ -114,6 +115,7 @@ input[type=checkbox],
 input[type=radio] {
 	width: 15px;
 }
+
 
 /* 第一种按钮 */
 
@@ -186,12 +188,14 @@ html [type=button] {
 	float: left;
 }
 
+
 /*这个类用来让所有的内容左右缩进10px*/
 
 .pad10 {
 	padding: 0 10px;
 	box-sizing: border-box;
 }
+
 
 /*这个类用来让所有的内容左右缩进20px*/
 
@@ -209,20 +213,21 @@ html [type=button] {
 }
 
 
-
-
 /*这个类用来让所有的内容左右缩进90px*/
 
 .pad90 {
 	padding: 0 90px;
 	box-sizing: border-box;
 }
+
+
 /*这个类用来让所有的内容向左缩进90px*/
 
 .pad90-l {
 	padding-left: 90px;
 	box-sizing: border-box;
 }
+
 
 /*这个类用来让所有的内容左右缩进360px*/
 
@@ -286,6 +291,7 @@ html [type=button] {
 
 .container {
 	width: 100%;
+	/*padding-top: 80px;*/
 	position: relative;
 }
 
@@ -293,6 +299,7 @@ html [type=button] {
 	width: 100%;
 	height: 80px;
 	background-color: rgb(32, 160, 255);
+	position: fixed;
 }
 
 .container .logo img {
@@ -317,8 +324,6 @@ html [type=button] {
 }
 
 
-
-
 /* 页面左边 */
 
 .container .container-left {
@@ -326,7 +331,7 @@ html [type=button] {
 	min-width: 160px;
 	background-color: #eef1f6;
 	box-sizing: border-box;
-	position: absolute;
+	position: fixed;
 	top: 80px;
 	left: 0;
 }
@@ -335,11 +340,7 @@ html [type=button] {
 /* 页面右边 */
 
 .container .container-rigth {
-	/*margin-left: 300px;*/
 	width: 83.5%;
-	/*min-width: 780px;*/
-	/*height: 500px;*/
-	/*background: tan;*/
 }
 
 
@@ -349,6 +350,7 @@ html [type=button] {
 	height: 60px;
 	width: 100%;
 	line-height: 60px;
+	margin-top: 80px;
 }
 
 .container .menu li {

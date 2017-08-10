@@ -8,73 +8,78 @@
 }
 
 .item .item-right h3 {
-	color: #757575;
-	font-size: 14px;
-	line-height: 57px;
-	height: 57px;
-	font-weight: normal;
+    color: #757575;
+    font-size: 14px;
+    line-height: 57px;
+    height: 57px;
+    font-weight: normal;
 }
 
-.item .item-right .item-right-img {
-	margin-bottom: 8px;
-	display: inline-block;
-	width: 240px;
-	height: 148px;
-}
-
-.item .item-right .item-right-img img {
-	width: 240px;
-	height: 148px;
+.item .item-right ul {
+	padding-bottom: 18px;
 }
 
 .item .item-right li {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-.item .item-right li h4 {
-	line-height: 24px;
-	height: 24px;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
-.item .item-right li h4 a {
-	cursor: pointer;
+.item .item-right ul li .item-right-img {
+	display: inline-block;
+	width: 87px;
+	height: 61px;
 	margin-right: 10px;
-	font-size: 14px;
-	color: #434343;
+	    margin-bottom: 8px;
 }
 
-.item .item-right li p {
-	line-height: 20px;
-	font-size: 12px;
-	color: #8a8a8a;
-	margin-top: 5px;
+.item .item-right ul li .item-right-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.item .item-right ul li .item-right-article {
+	width: 141px;
+	height: 65px;
+}
+
+.item .item-right ul li .item-right-article h5{
+	max-height: 66px;
+	font-size: 14px;
+    line-height: 22px;
+    font-weight: 100;
+    overflow: hidden;
+    /* 溢出用省略号显示 */
+	text-overflow: ellipsis;
+	/* 溢出不换行 */
+	/*white-space: nowrap;*/
+	/*将对象作为弹性伸缩盒子模型显示。*/
+	display: -webkit-box; 
+	/*从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）*/
+	-webkit-box-orient: vertical; 
+	/*这个属性不是css的规范属性，需要组合上面两个属性，表示显示的行数。*/
+	-webkit-line-clamp: 3; 
 }
 
 .item .item-left {
 	width: 874px;
-	padding: 25px;
+	padding: 25px 0;
 	box-sizing: border-box;
 }
 
 .nav-bar-row {
 	font-size: 12px;
-	height: 52px;
+	height: 42px;
 	width: 100%;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 
-.nav-bar-row ul{
-	background-color: #f9f9f9;
+.nav-bar-row ul {
+	background-color: #fbfbfb;
 }
 
 .nav-bar-row li {
-	height: 50px;
-	line-height: 50px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;	
 }
 
 .nav-bar-row li i {
@@ -91,47 +96,82 @@
 	width: 100%;
 	padding: 25px 25px 0;
 }
+
 .sch-result li {
-    padding: 20px 0;
-    border-bottom: 1px dashed #e6e6e6;
+	padding: 20px 0;
+	border-bottom: 1px dashed #e6e6e6;
 }
-.sch-result li:last-child{
+
+.sch-result li:last-child {
 	border: none;
 }
+
 .sch-result .sch-left {
 	width: 590px;
 }
 
-.sch-result .sch-left h4 a{
-    line-height: 2;
-    font-size: 18px;
+.sch-result .sch-left h4 a {
+	line-height: 2;
+	font-size: 18px;
+}
+
+.sch-result .result-dpn {
+	max-height: 90px;
+	/* 超出的文本隐藏 */
+	overflow: hidden;
+	/* 溢出用省略号显示 */
+	text-overflow: ellipsis;
+	/* 溢出不换行 */
+	/*white-space: nowrap;*/
+	/*将对象作为弹性伸缩盒子模型显示。*/
+	display: -webkit-box; 
+	/*从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）*/
+	-webkit-box-orient: vertical; 
+	/*这个属性不是css的规范属性，需要组合上面两个属性，表示显示的行数。*/
+	-webkit-line-clamp: 5; 
 }
 
 .sch-result .result-dpn,
 .sch-result .result-key {
-    font-size: 12px;
-    line-height: 1.5;
+	font-size: 12px;
+	line-height: 1.5;
 }
 
 .sch-result .result-key {
-    margin-top: 10px;
-    color: #999;
+	margin-top: 10px;
+	/*color: #999;*/
+	position: relative;
 }
 
 .sch-result .result-key a {
 	font-size: 12px;
-    color: #ff7300;
-    margin-left: 25px;
+	/*color: #ff7300;*/
+	margin-left: 30px;
+}
+
+.sch-result .result-key i {
+	display: inline-block;
+	font-size: 26px;
+	position: absolute;
+	left: 0;
+	top: -10px;
+	color: #1cdc1c;
+}
+
+.sch-result .result-key i.no,
+.sch-result .sch-right a {
+	color: #ff7300;
 }
 
 .sch-result .sch-right {
-    float: right;
-    width: 150px;
-    padding-top: 40px;
-    text-align: right;
+	/*float: right;*/
+	width: 150px;
+	padding-top: 40px;
+	text-align: right;
+	/*color: #1cdc1c;*/
 }
 
-input{
+input {
 	margin: 0;
 	padding: 0;
 	text-align: left;
