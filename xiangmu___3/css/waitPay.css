@@ -35,13 +35,9 @@
 
 .container.orderManagement .form .search {
 	position: absolute;
-	left: 78%;
+	left: 82%;
 }
 
-
-/*.container.orderManagement .table table tr th:first-child {
-	width: 24px;
-}*/
 
 .container.orderManagement .table table button {
 	margin: 2px 0;

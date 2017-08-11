@@ -55,13 +55,13 @@
 	font-size: 12px;
 }
 
-.container .list li:last-child {
+/*.container .list li:last-child {
 	line-height: 150px;
-}
+}*/
 
-.container .list li:last-child .text{ 
+/*.container .list li:last-child .text{ 
 	width: 100%;
-}
-.container .list li:last-child button{
+}*/
+/*.container .list li:last-child button{
 	margin-right: 20px;	
-}
+}*/

@@ -62,14 +62,7 @@ div.bDialog div.modal-content {
 }
 
 div.bDialog div.modal-header {
-	/*-webkit-border-top-left-radius: 2px;
-	-moz-border-top-left-radius: 2px;
-	border-top-left-radius: 2px;
-	-webkit-border-top-right-radius: 2px;
-	-moz-border-top-right-radius: 2px;
-	border-top-right-radius: 2px;
-	padding: 5px 10px;*/
-	line-height: 33px;
+	line-height: 34px;
 	background-color: #e6e6e6;
 }
 
@@ -82,7 +75,7 @@ div.bDialog div.modal-header h3 {
 }
 
 div.bDialog div.modal-body {
-	/*padding: 5px;*/
+	width: 840px;
 	padding: 15px 0;
 	overflow: hidden;
 	-moz-box-sizing: border-box;

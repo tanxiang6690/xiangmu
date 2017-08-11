@@ -280,19 +280,21 @@ html [type=button] {
 	position: fixed;
 }
 
-.container .logo img {
-	display: inline-block;
-	width: 200px;
-	height: 80px;
+.container .logo .img {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
 }
 
 .container .logo ul {
 	height: 80px;
 	margin-right: 100px;
 }
-
-
-/*.container .logo ul li*/
 
 .container .logo ul a {
 	line-height: 80px;

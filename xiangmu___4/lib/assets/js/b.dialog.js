@@ -319,7 +319,7 @@
 		'<h3 class="bDialogHeaderLabel"></h3>' +
 		'</div>' +
 		'<div class="modal-body bDialogBody bg-white"></div>' +
-		'<div class="modal-footer bDialogFooter hide">&nbsp;</div>' +
+		'<div style="height: 0;" class="modal-footer bDialogFooter hide">&nbsp;</div>' +
 		'</div></div></div>';
 	//默认参数
 	var _defaults = {
